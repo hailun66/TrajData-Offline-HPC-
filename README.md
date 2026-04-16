@@ -118,4 +118,4 @@ print(f"Total scenes available: {len(dataset)}")
 ```
 
 ## 🤝 贡献与致谢
-感谢 trajdata 团队提供了统一基座。本仓库旨在解决离线集群环境下的数据库构建问题。欢迎提Issue补充更多边缘场景的Bug修复！
+感谢 [trajdata](https://github.com/NVlabs/trajdata) 团队提供了统一基座。本仓库旨在解决离线集群环境下的数据库构建问题。欢迎提 Issue 补充更多边缘场景的 Bug 修复！
