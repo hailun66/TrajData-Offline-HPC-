@@ -67,6 +67,10 @@ cp -r nuplan-devkit/nuplan/planning/script/* ~/miniconda3/envs/trajdata_env/lib/
 ```Bash
 sbatch submit_db_build.sh
 ```
+or
+```
+ nohup /path/to/your/build_unified_db.py 1>build_db.log 2>&1
+```
 
 ## ⚠️ 运行中的致命崩溃点与修复 (Hotfixes)
 在跑批阶段，由于数据量极大，原源码中的几个 Bug 会导致整个多进程池崩溃（OOM 或抛错）。请在运行前修复：
